@@ -97,27 +97,27 @@ function dateManage(dateArg) {
 // function for the dynamic background change  according to weather status
 function changeBg(status) {
     if (status === 'Clouds') {
-        document.body.style.backgroundImage = 'url(img/clouds.jpg)';
+        document.body.style.backgroundImage = 'url(../assets/img_i_weather/img/clouds.jpg)';
     } else if (status === 'Rain') {
-        document.body.style.backgroundImage = 'url(img/rainy.jpg)';
+        document.body.style.backgroundImage = 'url(../assets/img_i_weather/img/rainy.jpg)';
     } else if (status === 'Clear') {
-        document.body.style.backgroundImage = 'url(img/clear.jpg)';
+        document.body.style.backgroundImage = 'url(../assets/img_i_weather/img/clear.jpg)';
     }
     else if (status === 'Snow') {
-        document.body.style.backgroundImage = 'url(img/snow.jpg)';
+        document.body.style.backgroundImage = 'url(../assets/img_i_weather/img/snow.jpg)';
     }
     else if (status === 'Sunny') {
-        document.body.style.backgroundImage = 'url(img/sunny.jpg)';
+        document.body.style.backgroundImage = 'url(../assets/img_i_weather/img/sunny.jpg)';
     } else if (status === 'Thunderstorm') {
-        document.body.style.backgroundImage = 'url(img/thunderstrom.jpg)';
+        document.body.style.backgroundImage = 'url(../assets/img_i_weather/img/thunderstrom.jpg)';
     } else if (status === 'Drizzle') {
-        document.body.style.backgroundImage = 'url(img/drizzle.jpg)';
+        document.body.style.backgroundImage = 'url(../assets/img_i_weather/img/drizzle.jpg)';
     } else if (status === 'Mist' || status === 'Haze' || status === 'Fog') {
-        document.body.style.backgroundImage = 'url(img/mist.jpg)';
+        document.body.style.backgroundImage = 'url(../assets/img_i_weather/img/mist.jpg)';
     }
 
     else {
-        document.body.style.backgroundImage = 'url(img/bg.jpg)';
+        document.body.style.backgroundImage = 'url(../assets/img_i_weather/img/bg.jpg)';
     }
 }
 
